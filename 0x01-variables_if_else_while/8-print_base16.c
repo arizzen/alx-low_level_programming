@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints base 16
- * return: 0
+ * main - prints the numbers in base 16
+ * Return: 0
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 	for (num = 0; num < 10; num++)
 		putchar((num % 10) + '0');
 
-	for (ba = 'a'; ba < 'f'; ba++)
+	for (ba = 'a'; ba <= 'f'; ba++)
 		putchar(ba);
 
 	putchar('\n');
