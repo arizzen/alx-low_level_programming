@@ -4,7 +4,7 @@
  * print_sign -prints the sign of a number
  *  @n: the number of the sign to be printed
  *  Return:1 if number is greater than zero
- *  - if number is zero
+ *  0 if number is zero
  *  -1 if nuber is less than zero
  */
 
