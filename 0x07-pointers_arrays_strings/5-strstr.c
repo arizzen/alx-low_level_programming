@@ -51,8 +51,6 @@ index++;
 }
 
 haystack++;
-
 }
-
 return ('\0'); 
-
+}
